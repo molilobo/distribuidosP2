@@ -63,6 +63,8 @@ if coche.TiempoAcumulado > 15 {
 ```
 Si el tiempo supera 15s, el coche vuelve a la cola marcado
 como prioritario para ser atendido antes.
+### Demo()
+nadamas ejecutar se empieza con una funcion llamada demo que carga un par de mecanicos clientes incidencias y coches  si no se desea con comentarla en main bastaria, se ha usado para hacelerar el proceso de pruebas
 
 ## Resultados tests
 | Test | Base | Modificado |
