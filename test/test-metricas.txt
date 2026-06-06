@@ -1,0 +1,51 @@
+=== RUN   TestDuplicarCoches
+Mecánico Mec1 (mecanica) atendiendo coche 1 - MAT-1
+Mecánico Mec2 (electrica) atendiendo coche 2 - MAT-2
+Mecánico Mec3 (carroceria) atendiendo coche 3 - MAT-3
+Mecánico Mec1 (mecanica) atendiendo coche 1 - MAT-1
+Mecánico Mec2 (electrica) atendiendo coche 2 - MAT-2
+Mecánico Mec3 (carroceria) atendiendo coche 3 - MAT-3
+Mecánico Mec1 (mecanica) atendiendo coche 4 - MAT-4
+Mecánico Mec3 (carroceria) atendiendo coche 5 - MAT-5
+Mecánico Mec2 (electrica) atendiendo coche 6 - MAT-6
+
+=== Test 1: Duplicar coches (mecanica) ===
+3 coches: total=15s, promedio=5s, tiempo_real=5.0006695s
+6 coches: total=30s, promedio=5s, tiempo_real=10.0012522s
+--- PASS: TestDuplicarCoches (15.00s)
+=== RUN   TestDuplicarMecanicos
+Mecánico Mec2 (electrica) atendiendo coche 2 - MAT-2
+Mecánico Mec3 (carroceria) atendiendo coche 3 - MAT-3
+Mecánico Mec1 (mecanica) atendiendo coche 1 - MAT-1
+Mecánico Mec1 (mecanica) atendiendo coche 4 - MAT-4
+Mecánico Mec2 (electrica) atendiendo coche 5 - MAT-5
+Mecánico Mec1 (mecanica) atendiendo coche 6 - MAT-6
+Mecánico Mec4 (mecanica) atendiendo coche 1 - MAT-1
+Mecánico Mec3 (carroceria) atendiendo coche 2 - MAT-2
+Mecánico Mec1 (mecanica) atendiendo coche 3 - MAT-3
+Mecánico Mec2 (electrica) atendiendo coche 4 - MAT-4
+Mecánico Mec5 (electrica) atendiendo coche 5 - MAT-5
+Mecánico Mec6 (carroceria) atendiendo coche 6 - MAT-6
+
+=== Test 2: 3 mecánicos vs 6 mecánicos ===
+3 mecs: total=46s, promedio=7.666666666s, tiempo_real=21.001552s, mecs_finales=3
+6 mecs: total=46s, promedio=7.666666666s, tiempo_real=11.0000455s, mecs_finales=6
+--- PASS: TestDuplicarMecanicos (32.00s)
+=== RUN   TestDistribucionEspecialidades
+Mecánico Mec1 (mecanica) atendiendo coche 1 - MAT-1
+Mecánico Mec2 (mecanica) atendiendo coche 2 - MAT-2
+Mecánico Mec3 (mecanica) atendiendo coche 3 - MAT-3
+Mecánico Mec4 (electrica) atendiendo coche 4 - MAT-4
+Mecánico Mec5 (carroceria) atendiendo coche 5 - MAT-5
+Mecánico Mec5 (carroceria) atendiendo coche 5 - MAT-5
+Mecánico Mec4 (electrica) atendiendo coche 2 - MAT-2
+Mecánico Mec1 (mecanica) atendiendo coche 1 - MAT-1
+Mecánico Mec2 (electrica) atendiendo coche 3 - MAT-3
+Mecánico Mec3 (electrica) atendiendo coche 4 - MAT-4
+
+=== Test 3: 3mec/1elec/1carr vs 1mec/3elec/3carr ===
+3/1/1: total=33s, promedio=6.6s, tiempo_real=11.0004735s
+1/3/3: total=33s, promedio=6.6s, tiempo_real=11.0004846s
+--- PASS: TestDistribucionEspecialidades (22.00s)
+PASS
+ok      practica2/src   (cached)
